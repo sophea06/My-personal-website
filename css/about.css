@@ -1,0 +1,15 @@
+*{margin:0;padding:0;font-family:ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}main .par-about-top{text-align:center;font-size:20px;margin-top:10px;margin-bottom:60px}main .about-title-3{font-size:24px;margin-bottom:20px;color:teal}main .about-title{margin-top:60px;text-align:center;font-size:40px}main .intro-about{margin-top:80px;display:flex;gap:50px;align-items:center;padding:0 100px}main .intro-about .about-top{width:50%;display:flex;justify-content:space-between;align-items:center;display:flex;align-items:center}main .intro-about .about-top .about-img{width:370px;height:70vh;border-radius:10px;box-shadow:rgba(0,0,0,.1) 0px 4px 12px;transition:transform .3s ease}main .intro-about .about-top .about-img:hover{transform:scale(1.05)}main .intro-about .about-buttom{padding:50px 0px 0px 50px}main .intro-about .about-buttom .heading-2-about{font-size:30px;margin-bottom:20px}main .intro-about .about-buttom .par-about{font-size:18px;margin-bottom:20px;line-height:1.8}main .intro-about .info-about{margin-bottom:20px;display:grid;gap:3px;grid-template-columns:repeat(2, 1fr)}main .intro-about .info-about .bx-chevron-right{font-size:25px;color:teal}main .intro-about .info-about .par-info{line-height:2em;gap:5px;display:flex;align-items:center}@media(min-width: 760px)and (max-width: 834px){main .intro-about{padding:0 20px}main .intro-about .about-top .about-img{display:none;width:100%;height:auto}main .intro-about .about-buttom{padding:20px 0 0 0}main .intro-about .about-buttom .heading-2-about{font-size:24px}main .intro-about .about-buttom .par-about{font-size:16px}}/*# sourceMappingURL=about.css.map */out .about-top .about-img {
+    display: none;
+    width: 100%;
+    height: auto;
+  }
+  main .intro-about .about-buttom {
+    padding: 20px 0 0 0;
+  }
+  main .intro-about .about-buttom .heading-2-about {
+    font-size: 24px;
+  }
+  main .intro-about .about-buttom .par-about {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=about.css.map */

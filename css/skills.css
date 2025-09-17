@@ -1,0 +1,8 @@
+*{margin:0;padding:0;font-family:ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}main .skills-title{text-align:center;font-size:40px}main .skills-description{text-align:center;font-size:20px;margin-top:10px}main .skills-description-creative{text-align:center;font-size:20px;margin-top:10px;margin-bottom:60px}main .progress-bar{height:10px;font-size:20px;line-height:30px;color:#fff;text-align:center;background-color:#337ab7;box-shadow:rgba(0,0,0,.1) 0px 4px 12px}main .progress-bar-warning{background-color:#f0ad4e}main .skills{display:grid;grid-template-columns:repeat(2, 1fr);gap:50px;margin:0 100px 60px 100px}main .skills .top-data{display:flex;justify-content:space-between}main .skills .data{margin-bottom:30px}main .skills .skill-bar{overflow:hidden}/*# sourceMappingURL=skills.css.map */tify-content: space-between;
+}
+main .skills .data {
+  margin-bottom: 30px;
+}
+main .skills .skill-bar {
+  overflow: hidden;
+}/*# sourceMappingURL=skills.css.map */

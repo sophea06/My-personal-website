@@ -1,0 +1,108 @@
+@import "../sass/variables";
+@import "../sass/mixins";
+
+* {
+    @include control;
+}
+main {
+    .par-about-top {
+        @include paragraph-style;
+    }
+    .about-title-3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: teal;
+    }
+    .about-title {
+        margin-top: 60px;
+        text-align: center;
+        font-size: 40px;
+    }
+    .intro-about {
+        margin-top: 80px;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        padding: 0 100px;
+
+        .about-top {
+            width: 50%;
+            @include converted;
+            display: flex;
+            align-items: center;
+            .about-img {
+                width: 370px;
+                height: 70vh;
+                border-radius: 10px;
+                box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+                transition: transform 0.3s ease;
+
+                &:hover {
+                    transform: scale(1.05);
+                }
+            }
+        }
+
+        .about-buttom {
+            .heading-2-about {
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+            padding: 50px 0px 0px 50px;
+
+            .par-about {
+                font-size: 18px;
+                margin-bottom: 20px;
+                line-height: 1.8;
+            }
+        }
+
+        .info-about {
+            margin-bottom: 20px;
+            display: grid;
+            gap: 3px;
+            grid-template-columns: repeat(2, 1fr);
+
+            .bx-chevron-right {
+                font-size: 25px;
+                color: teal;
+            }
+
+            .par-info {
+                line-height: 2em;
+                gap: 5px;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}
+
+@media (min-width: 760px) and (max-width: 834px) {
+    main {
+        .intro-about {
+            // flex-direction: column;
+            padding: 0 20px;
+
+            .about-top {
+                .about-img {
+                    display: none;
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            .about-buttom {
+                padding: 20px 0 0 0;
+
+                .heading-2-about {
+                    font-size: 24px;
+                }
+
+                .par-about {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
